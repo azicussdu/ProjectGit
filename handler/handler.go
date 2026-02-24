@@ -8,5 +8,8 @@ type Handler struct {
 
 func (*Handler) initialize() {
 	fmt.Println("Hey hey in main")
-	fmt.Println("I fixed it in main")
+	var a, b int
+	fmt.Scan(&a, &b)
+	c := a + b
+	fmt.Print(c)
 }
