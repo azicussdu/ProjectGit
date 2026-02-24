@@ -7,9 +7,9 @@ type Handler struct {
 }
 
 func (*Handler) initialize() {
-	fmt.Println("Hey hey in main")
-	var a, b int
-	fmt.Scan(&a, &b)
-	c := a + b
-	fmt.Print(c)
+	fmt.Println("Fixing handler")
+	var a, b, c int
+	fmt.Scan(&a, &b, &c)
+	d := a + b + c
+	fmt.Print(d)
 }
